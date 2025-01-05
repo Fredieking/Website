@@ -8,7 +8,7 @@
     height: 300px;
     overflow-y: hidden ! important;
     overflow-x: hidden ! important;
-    background-color: #f28800;
+    background-color: #9900f2;
     /*background-size: cover;*/
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   }
   
   .h1 {
-    color: Orange;
+    color: rgb(230, 0, 255);
     font: 30px Arial, sans-serif;
     text-align: center;
     background-size: cover;
@@ -30,13 +30,13 @@
   
   #inhoudeen {
     height: auto;
-    background-color: #d89b0f;
+    background-color: #c10fd8;
     float: left;
   }
   
   #inhoudtwee {
     height: auto;
-    background-color: #d8800f;
+    background-color: #ba0fd8;
     float: left;
   }
   
@@ -80,7 +80,7 @@
   .topnav {
     list-style-type: none;
     overflow: hidden;
-    background-color: #ff8800;
+    background-color: #f700ff;
   }
   
   .topnav li {
@@ -97,12 +97,12 @@
   }
   
   .topnav li a:hover {
-    background-color: #fff100;
+    background-color: #a200ff;
     color: black;
   }
   
   .topnav li a.active {
-    background-color: #fff100;
+    background-color: #f200ff;
     color: black;
   }
   
@@ -125,11 +125,11 @@
     width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
-    box-shadow: inset 2px 2px 5px orange;
+    box-shadow: inset 2px 2px 5px rgb(204, 0, 255);
   }
   
   button:active {
-    background-color: orange;
+    background-color: rgb(255, 0, 238);
     color: black;
     border-radius: 4px;
     box-shadow: inset 2px 2px 5px lightyellow;
@@ -137,8 +137,8 @@
   
   footer {
     text-align: center;
-    min-height: 100px;
-    background-color: yellow;
+    min-height: 60px;
+    background-color: rgb(195, 0, 255);
     clear: left;
   }
   
