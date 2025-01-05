@@ -1,0 +1,246 @@
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  body {}
+  .header {
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    background-color: #f28800;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .h1 {
+    color: Orange;
+    font: 30px Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .h2{
+    color: green;
+  }
+  
+  #inhoudeen {
+    height: auto;
+    background-color: #d89b0f;
+    float: left;
+  }
+  
+  #inhoudtwee {
+    height: auto;
+    background-color: #d8800f;
+    float: left;
+  }
+  
+  p{
+    text-align: justify;
+  }
+  
+  img {
+    object-fit: scale-down;
+  }
+  
+  .foto {
+    max-width: 25%;
+    object-fit: scale-down;
+    float: right;
+    margin:5px;
+  }
+  
+  .photo {
+    max-width: 25%;
+    object-fit: scale-down;
+    float: left;
+    margin:5px;
+  }
+  
+  .image {
+    max-width: 25%;
+    object-fit: scale-down;
+  }
+  
+  .image1 {
+    max-width: 50%;
+    object-fit: scale-down;
+  }
+  
+  .text {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ff8800;
+  }
+  
+  .topnav li {
+    float: none;
+  }
+  
+  .topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav li a:hover {
+    background-color: #fff100;
+    color: black;
+  }
+  
+  .topnav li a.active {
+    background-color: #fff100;
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+    padding: 5px 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select,
+  button {
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px orange;
+  }
+  
+  button:active {
+    background-color: orange;
+    color: black;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px lightyellow;
+  }
+  
+  footer {
+    text-align: center;
+    min-height: 100px;
+    background-color: yellow;
+    clear: left;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    body {}
+  
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+  
+    .col-1 {
+      width: 8.33%;
+    }
+  
+    .col-2 {
+      width: 16.66%;
+    }
+  
+    .col-3 {
+      width: 25%;
+    }
+  
+    .col-4 {
+      width: 33.33%;
+    }
+  
+    .col-5 {
+      width: 41.66%;
+    }
+  
+    .col-6 {
+      width: 50%;
+    }
+  
+    .col-7 {
+      width: 58.33%;
+    }
+  
+    .col-8 {
+      width: 66.66%;
+    }
+  
+    .col-9 {
+      width: 75%;
+    }
+  
+    .col-10 {
+      width: 83.33%;
+    }
+  
+    .col-11 {
+      width: 91.66%;
+    }
+  
+    .col-12 {
+      width: 100%;
+    }
+  
+    .header {
+      width: 100%;
+      height: 300px;
+      overflow-y: hidden ! important;
+      overflow-x: hidden ! important;
+      background-color: #ce00f2;
+      /*background-size: cover;*/
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      overflow-wrap: normal;
+    }
+  
+    .section {
+      width: 50%;
+      display: inline-block;
+    }
+  
+    #inhoudeen {
+      width: 30%;
+      height: auto;
+      background-color: #c70fd8;
+      float: left;
+    }
+  
+    #inhoudtwee {
+      width: 70%;
+      height: auto;
+      background-color: #d80fc1;
+      float: left;
+    }
+  
+    .topnav li {
+      float: left;
+    }
+      .topnav li a {
+        float: left;
+  }
+  }
